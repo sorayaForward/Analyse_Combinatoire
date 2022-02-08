@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <title>Analyse Combinatoire</title>
+</head>
+<body>
+    
+    <div class="hallcontainer">
+           <nav><h1>Analyse Combinatoire</h1></nav> 
+
+        <div class="container">
+        <img src="./images/dice.png" alt="probability">
+       <div class="fres">
+            <form>
+                    <label>Donner n</label>
+                    <input type="text" name="n">
+                    <label>Donner p</label>
+                    <input type="text" name="p">
+                    <label>Avec Repetition ?</label>
+                    <select name="select" id="select">
+                        <option value="yes">Oui</option>
+                        <option value="No">Non</option>
+                    </select>
+                    <label>L'ordre est il important ?</label>
+                    <select name="select2" id="select2">
+                        <option value="yes">Oui</option>
+                        <option value="no">Non</option>
+                    </select>
+                    <button  type="Button" name="subm" onclick="myFunction()"><h3>Calculer</h3></button>
+                    
+
+            </form>
+            <div id = "resultat">
+            </div>
+        </div>
+        </div>
+    
+
+        <footer>
+            <p>Projet realisé par <p3><span class="neon">Soraya Khene </span></p3></p>
+            <p>- Fevrier 2022</p>
+            
+        </footer>
+
+</div>
+
+
+
+<script src="doc.js"></script>
+</body>
+</html>
