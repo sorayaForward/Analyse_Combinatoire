@@ -2,6 +2,6 @@
 
 Link : https://analyse-combinatoire1.herokuapp.com/
 
-![alt text](./images/capture.jpeg)
+![alt text](./images/Capture.jpeg)
 
 
